@@ -1,0 +1,20 @@
+html,
+body {
+    background-color: rgb(14, 23, 33);
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: auto;
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgb(14, 23, 33);
+}
+
+.btn {
+    border: 1px solid rgb(255, 201, 153);
+}
+
+.nav-link {
+    color: rgb(255, 201, 153);
+}
