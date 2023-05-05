@@ -1,20 +1,52 @@
-html,
-body {
-    background-color: rgb(14, 23, 33);
+:root {
+    --c-primary-light: #91979;
+    --c-primary: #222F3D;
+    --c-primary-dark: #0E1721;
+    --c-secundary-light: #FBFBFB;
+    --c-secundary: #FFC999;
+    --c-secundary-dark: #FFA96B;
+}
+
+body,
+html {
     font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: auto;
-    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
+/* NAVBAR */
 .navbar {
-    background-color: rgb(14, 23, 33);
+    background-color: var(--c-primary-dark);
+    padding: 1rem;
 }
 
-.btn {
-    border: 1px solid rgb(255, 201, 153);
+.navbar .nav-item .nav-link {
+    color: var(--c-secundary-light);
+    font-size: 14px;
 }
 
-.nav-link {
-    color: rgb(255, 201, 153);
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link.active {
+    color: var(--c-secundary);
+    text-decoration: overline;
+
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler:focus:hover {
+    transition: 0.2s;
+    background-color: var(--c-primary);
+}
+
+.navbar-toggler-icon {
+    filter: invert(0.4);
+}
+
+.btn-outline-success {
+    color: var(--c-secundary);
+    border-color: var(--c-secundary);
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
 }
