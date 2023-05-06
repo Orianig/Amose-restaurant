@@ -15,8 +15,17 @@ html {
 
 /* NAVBAR */
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    transition: background-color 0.4s ease;
+}
+
+.navbar-solid {
+
     background-color: var(--c-primary-dark);
-    padding: 1rem;
 }
 
 .navbar .nav-item .nav-link {
@@ -49,4 +58,21 @@ html {
     border-color: var(--c-secundary);
     font-family: 'Crimson Text', serif;
     font-size: 20px;
+}
+
+.btn-outline-success:hover {
+    transition: 0.2s;
+    background-color: var(--c-secundary);
+    color: var(--c-primary-dark);
+    border-color: transparent;
+}
+
+.video {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 0
 }
