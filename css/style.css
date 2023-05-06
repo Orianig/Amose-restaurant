@@ -19,7 +19,7 @@ html {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 5;
     transition: background-color 0.4s ease;
 }
 
@@ -75,4 +75,23 @@ html {
     right: 0;
     width: 100%;
     z-index: 0
+}
+
+section {}
+
+.top-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.top-home-ppal {
+    padding: 3rem;
+}
+
+.top-home-logo {
+    width: 260px;
+    height: 300px;
 }
