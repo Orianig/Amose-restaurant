@@ -76,3 +76,31 @@ h3 {
 .navbar-toggler-icon {
     filter: invert(0.4);
 }
+
+/* VIDEO */
+.video-container h4,
+.video-container h1,
+.video-container a i {
+    color: var(--c-font);
+}
+
+.exp-amose {
+    color: var(--c-secundary);
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    border-bottom: .1em solid;
+}
+
+.footer {
+    background-color: var(--c-primary);
+}
+
+.footer a i {
+    color: var(--c-font);
+}
+
+.copyright {
+    font-size: 0.8rem;
+}
