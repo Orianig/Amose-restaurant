@@ -1,5 +1,5 @@
 :root {
-    --c-primary-light: #91979;
+    --c-primary-light: #91979E;
     --c-primary: #222F3D;
     --c-primary-dark: #0E1721;
     --c-secundary-light: #FFEFE0;
@@ -10,8 +10,30 @@
 
 body,
 html {
+    background: var(--c-primary-dark);
+    color: var(--c-font);
     font-size: 16px;
     font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    color: var (--c-secundary);
+}
+
+.btn-outline-secondary {
+    color: var(--c-secundary);
+    border-color: var(--c-secundary);
+    font-family: 'Crimson Text', serif;
+    font-size: 1.2rem;
+}
+
+.btn-outline-secondary:hover {
+    transition: 0.2s;
+    background-color: var(--c-secundary);
+    color: var(--c-primary-dark);
+    border-color: transparent;
 }
 
 /* NAVBAR */
@@ -31,7 +53,7 @@ html {
 
 .navbar .nav-item .nav-link {
     color: var(--c-secundary-light);
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 .navbar .nav-item .nav-link:hover,
@@ -48,29 +70,9 @@ html {
 .navbar-toggler:focus:hover {
     transition: 0.2s;
     background-color: var(--c-primary);
+    border: none;
 }
 
 .navbar-toggler-icon {
     filter: invert(0.4);
-}
-
-.btn-outline-success {
-    color: var(--c-secundary);
-    border-color: var(--c-secundary);
-    font-family: 'Crimson Text', serif;
-    font-size: 20px;
-}
-
-.btn-outline-success:hover {
-    transition: 0.2s;
-    background-color: var(--c-secundary);
-    color: var(--c-primary-dark);
-    border-color: transparent;
-}
-
-/* VIDEO */
-.video-container h4,
-.video-container h1,
-.video-container a i {
-    color: var(--c-font);
 }
