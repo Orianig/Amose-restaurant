@@ -2,9 +2,10 @@
     --c-primary-light: #91979;
     --c-primary: #222F3D;
     --c-primary-dark: #0E1721;
-    --c-secundary-light: #FBFBFB;
+    --c-secundary-light: #FFEFE0;
     --c-secundary: #FFC999;
     --c-secundary-dark: #FFA96B;
+    --c-font: #FBFBFB;
 }
 
 body,
@@ -67,31 +68,9 @@ html {
     border-color: transparent;
 }
 
-.video {
-
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    z-index: 0
-}
-
-section {}
-
-.top-home {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    z-index: 1;
-}
-
-.top-home-ppal {
-    padding: 3rem;
-}
-
-.top-home-logo {
-    width: 260px;
-    height: 300px;
+/* VIDEO */
+.video-container h4,
+.video-container h1,
+.video-container a i {
+    color: var(--c-font);
 }
