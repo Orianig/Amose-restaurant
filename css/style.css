@@ -85,6 +85,7 @@ h3 {
 }
 
 .exp-amose {
+    font-family: Manrope, sans-serif;
     color: var(--c-secundary);
     font-size: 1rem;
     font-weight: 400;
