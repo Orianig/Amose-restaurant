@@ -63,6 +63,12 @@ h3 {
 
 }
 
+.btn-outline-secondary.active {
+    background-color: var(--c-secundary);
+    color: var(--c-primary-dark);
+    border-color: transparent;
+}
+
 .navbar-toggler:focus {
     box-shadow: none;
 }
@@ -105,3 +111,9 @@ h3 {
 .copyright {
     font-size: 0.8rem;
 }
+
+/* .icons-container i {
+    background-color: var(--c-secundary);
+    border-radius: 50%;
+    color: #222F3D;
+} */
