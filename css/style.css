@@ -104,7 +104,6 @@ h3 {
     font-family: Manrope, sans-serif;
     color: var(--c-secundary);
     font-size: 1rem;
-    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: .1em;
     border-bottom: .1em solid;
@@ -120,6 +119,27 @@ h3 {
 
 .copyright {
     font-size: 0.8rem;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--c-primary);
+    border-color: var(--c-primary);
+    color: var(--c-font)
+}
+
+.accordion-body {
+    background-color: var(--c-primary);
+}
+
+.carousel-item .card {
+    margin: 0 auto;
+}
+
+[data-bs-theme=dark] .carousel .carousel-control-next-icon,
+[data-bs-theme=dark] .carousel .carousel-control-prev-icon,
+[data-bs-theme=dark].carousel .carousel-control-next-icon,
+[data-bs-theme=dark].carousel .carousel-control-prev-icon {
+    filter: none;
 }
 
 /* .icons-container i {
