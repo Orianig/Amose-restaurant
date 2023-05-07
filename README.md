@@ -1,5 +1,7 @@
 # **AMOSE RESTAURANTE**
 
+![Logo del restaurante](https://github.com/Orianig/Amose-restaurant/blob/b3bf64125bb146dcc64d660b42c92a479aff1df3/img/LogoPpal.jpg)
+
 Este es un proyecto educativo de creación de una página web para un restaurante utilizando Bootstrap, HTML y CSS. La página web consta de cuatro páginas principales: Inicio, Menú, Contacto y Reserva.
 
 ## Características del proyecto
@@ -23,3 +25,11 @@ Este es un proyecto educativo de creación de una página web para un restaurant
 - style.css: Archivo CSS personalizado para estilos adicionales.
 - main.js: Para el scroll de la Navbar
 - img/: Carpeta que contiene las imágenes utilizadas en el proyecto.
+
+## Referencias en la elaboración de la pagina
+
+![Paleta de colores](https://github.com/Orianig/Amose-restaurant/blob/b3bf64125bb146dcc64d660b42c92a479aff1df3/img/paleta-colores.PNG)
+
+![Diseño de la pagina principal](https://github.com/Orianig/Amose-restaurant/blob/b3bf64125bb146dcc64d660b42c92a479aff1df3/img/proceso-creativo1.PNG)
+
+![Diseño del menú](https://github.com/Orianig/Amose-restaurant/blob/b3bf64125bb146dcc64d660b42c92a479aff1df3/img/proceso-creativo2.PNG)
