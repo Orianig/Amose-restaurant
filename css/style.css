@@ -22,14 +22,30 @@ h3 {
     color: var (--c-secundary);
 }
 
-.btn-outline-secondary {
-    color: var(--c-secundary);
-    border-color: var(--c-secundary);
+.btn {
     font-family: 'Crimson Text', serif;
     font-size: 1.2rem;
 }
 
-.btn-outline-secondary:hover {
+.btn-secondary {
+    background-color: var(--c-secundary);
+    color: var(--c-primary);
+}
+
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary.active {
+    background-color: var(--c-secundary-dark);
+}
+
+.btn-outline-secondary {
+    color: var(--c-secundary);
+    border-color: var(--c-secundary);
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:active,
+.btn-outline-secondary.active {
     transition: 0.2s;
     background-color: var(--c-secundary);
     color: var(--c-primary-dark);
@@ -61,12 +77,6 @@ h3 {
     color: var(--c-secundary);
     text-decoration: overline;
 
-}
-
-.btn-outline-secondary.active {
-    background-color: var(--c-secundary);
-    color: var(--c-primary-dark);
-    border-color: transparent;
 }
 
 .navbar-toggler:focus {
