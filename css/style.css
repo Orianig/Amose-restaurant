@@ -100,6 +100,10 @@ h3 {
     color: var(--c-font);
 }
 
+.exp-amose1 {
+    color: var(--c-secundary-light);
+}
+
 .exp-amose {
     font-family: Manrope, sans-serif;
     color: var(--c-secundary);
@@ -141,6 +145,15 @@ h3 {
 [data-bs-theme=dark].carousel .carousel-control-prev-icon {
     filter: none;
 }
+
+.accordion-button.collapsed {
+    background-color: var(--c-primary);
+}
+
+.card-body {
+    background-color: var(--c-primary);
+}
+
 
 /* .icons-container i {
     background-color: var(--c-secundary);
