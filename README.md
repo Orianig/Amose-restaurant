@@ -28,8 +28,21 @@ Este es un proyecto educativo de creación de una página web para un restaurant
 
 ## Referencias en la elaboración de la pagina
 
+1) Se seleccionó una paleta de colores según la tematica esperada
+
 ![Paleta de colores](https://github.com/Orianig/Amose-restaurant/blob/b3bf64125bb146dcc64d660b42c92a479aff1df3/img/paleta-colores.PNG)
+
+2) Se trazó un primer diseño con la estructura principal de la pagina de Inicio
 
 ![Diseño de la pagina principal](https://github.com/Orianig/Amose-restaurant/blob/b3bf64125bb146dcc64d660b42c92a479aff1df3/img/proceso-creativo1.PNG)
 
+3) Se generó un diseño de como se buscaba visualizar el menú
+
 ![Diseño del menú](https://github.com/Orianig/Amose-restaurant/blob/b3bf64125bb146dcc64d660b42c92a479aff1df3/img/proceso-creativo2.PNG)
+
+4) Verificación del responsive, como ejemplo de la verificación se muestra el menú en version ordenador y en version movil
+
+![Responsive-ordenador](https://github.com/Orianig/Amose-restaurant/blob/2edcd63fdccca4954e0e50fcb28044d8c95f2fe2/img/responsive-1.PNG)
+![Responsive-movil](https://github.com/Orianig/Amose-restaurant/blob/2edcd63fdccca4954e0e50fcb28044d8c95f2fe2/img/responsive-2.PNG)
+
+### Espero que disfruten de mi web
