@@ -16,36 +16,34 @@ html {
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
-h1,
-h2,
-h3 {
+.texto-amose h1,
+.texto-amose h2,
+.texto-amose h3 {
     color: var (--c-secundary);
 }
 
-.btn {
+
+.btn-mine {
+    background-color: var(--c-secundary);
+    color: var(--c-primary);
     font-family: 'Crimson Text', serif;
     font-size: 1.2rem;
 }
 
-.btn-secondary {
-    background-color: var(--c-secundary);
-    color: var(--c-primary);
-}
-
-.btn-secondary:hover,
-.btn-secondary:active,
-.btn-secondary.active {
+.btn-mine:hover,
+.btn-mine:active {
     background-color: var(--c-secundary-dark);
 }
 
-.btn-outline-secondary {
+.btn-outline-mine {
     color: var(--c-secundary);
     border-color: var(--c-secundary);
+    font-size: 1.2rem;
+    font-family: 'Crimson Text', serif;
 }
 
-.btn-outline-secondary:hover,
-.btn-outline-secondary:active,
-.btn-outline-secondary.active {
+.btn-outline-mine:hover,
+.btn-outline-mine:active {
     transition: 0.2s;
     background-color: var(--c-secundary);
     color: var(--c-primary-dark);
@@ -53,7 +51,7 @@ h3 {
 }
 
 /* NAVBAR */
-.navbar {
+.navbar-mine {
     position: fixed;
     top: 0;
     left: 0;
@@ -67,29 +65,28 @@ h3 {
     background-color: var(--c-primary-dark);
 }
 
-.navbar .nav-item .nav-link {
+.navbar .nav-item .nav-link-mine {
     color: var(--c-secundary-light);
     font-size: 1rem;
 }
 
-.navbar .nav-item .nav-link:hover,
-.navbar .nav-item .nav-link.active {
+.navbar .nav-item .nav-link-mine:hover,
+.navbar .nav-item .nav-link-mine.active {
     color: var(--c-secundary);
     text-decoration: overline;
-
 }
 
-.navbar-toggler:focus {
+.navbar-toggler-mine:focus {
     box-shadow: none;
 }
 
-.navbar-toggler:focus:hover {
+.navbar-toggler-mine:focus:hover {
     transition: 0.2s;
     background-color: var(--c-primary);
     border: none;
 }
 
-.navbar-toggler-icon {
+.navbar-toggler-icon-mine {
     filter: invert(0.4);
 }
 
@@ -125,32 +122,32 @@ h3 {
     font-size: 0.8rem;
 }
 
-.accordion-button:not(.collapsed) {
+.accordion-button-mine:not(.collapsed) {
     background-color: var(--c-primary);
     border-color: var(--c-primary);
     color: var(--c-font)
 }
 
-.accordion-body {
+.accordion-body-mine {
     background-color: var(--c-primary);
 }
 
-.carousel-item .card {
+.carousel-item .card-mine {
     margin: 0 auto;
 }
 
-[data-bs-theme=dark] .carousel .carousel-control-next-icon,
-[data-bs-theme=dark] .carousel .carousel-control-prev-icon,
-[data-bs-theme=dark].carousel .carousel-control-next-icon,
-[data-bs-theme=dark].carousel .carousel-control-prev-icon {
+[data-bs-theme=dark] .carousel .carousel-control-next-icon-mine,
+[data-bs-theme=dark] .carousel .carousel-control-prev-icon-mine,
+[data-bs-theme=dark].carousel .carousel-control-next-icon-mine,
+[data-bs-theme=dark].carousel .carousel-control-prev-icon-mine {
     filter: none;
 }
 
-.accordion-button.collapsed {
+.accordion-button-mine.collapsed {
     background-color: var(--c-primary);
 }
 
-.card-body {
+.card-body-mine {
     background-color: var(--c-primary);
 }
 

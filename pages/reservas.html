@@ -31,29 +31,30 @@
 
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-md navbar-light navbar-transparent">
+    <nav class="navbar navbar-expand-md navbar-mine navbar-transparent">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">
                 <img src="../img/logoNavbar.png" width="150" alt="Website Logo">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler navbar-toggler-mine" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon navbar-toggler-icon-mine"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarTogglerDemo02">
                 <!-- ITEMS NAVBAR -->
                 <ul class="navbar-nav d-flex justify-content-center align-items-center ">
                     <li class="nav-item m-2">
-                        <a class="nav-link" href="../index.html">INICIO</a>
+                        <a class="nav-link nav-link-mine" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-itemm-2">
+                        <a class="nav-link nav-link-mine" href="./menu.html">MENÚ</a>
                     </li>
                     <li class="nav-item m-2">
-                        <a class="nav-link" href="./menu.html">MENÚ</a>
+                        <a class="nav-link nav-link-mine active" href="./contacto.html">CONTACTO</a>
                     </li>
                     <li class="nav-item m-2">
-                        <a class="nav-link active" href="./contacto.html">CONTACTO</a>
-                    </li>
-                    <li class="nav-item m-2">
-                        <a class="btn btn-secondary me-2" aria-current="page" href="./reservas.html">Reservas</a>
+                        <a class="btn btn-mine me-2" aria-current="page" href="./reservas.html">Reservas</a>
                     </li>
                 </ul>
             </div>
@@ -99,13 +100,13 @@
                 <input type="date" class="form-control" id="fecha">
             </div>
             <div class="text-end">
-                <button type="submit" class="btn btn-secondary mt-3">Reservar</button>
+                <button type="submit" class="btn btn-mine mt-3">Reservar</button>
             </div>
         </form>
     </div>
 
     <!-- FOOTER -->
-    <section class="footer row mx-0 justify-content-center align-items-center">
+    <section class="container-fluid footer row mx-0 justify-content-center align-items-center">
         <div
             class="col-md-4 col-12 d-flex flex-column justify-content-center align-items-center align-items-md-start p-5">
             <h7 class="text-center text-md-start">Carrer de la Vall D'Aiora, 6, 46015. Valéncia</h7>

@@ -31,29 +31,30 @@
 
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-md navbar-light navbar-transparent">
+    <nav class="navbar navbar-expand-md navbar-mine navbar-transparent">
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.html">
                 <img src="img/logoNavbar.png" width="150" alt="Website Logo">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler navbar-toggler-mine" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon navbar-toggler-icon-mine"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarTogglerDemo02">
                 <!-- ITEMS NAVBAR -->
                 <ul class="navbar-nav d-flex justify-content-center align-items-center ">
                     <li class="nav-item m-2">
-                        <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+                        <a class="nav-link nav-link-mine active" aria-current="page" href="./index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item  m-2">
+                        <a class="nav-link nav-link-mine" href="./pages/menu.html">MENÚ</a>
+                    </li>
+                    <li class="nav-item  m-2">
+                        <a class="nav-link nav-link-mine" href="./pages/contacto.html">CONTACTO</a>
                     </li>
                     <li class="nav-item m-2">
-                        <a class="nav-link" href="./pages/menu.html">MENÚ</a>
-                    </li>
-                    <li class="nav-item m-2">
-                        <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
-                    </li>
-                    <li class="nav-item m-2">
-                        <a class="btn btn-outline-secondary me-2" href="./pages/reservas.html">Reservas</a>
+                        <a class="btn btn-outline-mine me-2" href="./pages/reservas.html">Reservas</a>
                     </li>
                 </ul>
             </div>
@@ -67,7 +68,7 @@
                 type="video/mp4" alt="bol humeante sobre una mesa con comida">
         </video>
         <div
-            class="position-absolute top-50 start-50 translate-middle text-center d-flex flex-column justify-content-center ">
+            class="position-absolute top-50 start-50 translate-middle text-center d-flex flex-column justify-content-center texto-amose">
             <h4 class="d-none d-md-block"> Cocina Moderna</h4>
             <h1 class="d-none d-md-block">AMOSE RESTAURANTE</h1>
             <div class="d-flex gap-4 justify-content-center fs-5">
@@ -77,10 +78,10 @@
         </div>
     </div>
     <!-- SECTION I -->
-    <section class="row mx-0 mt-5 justify-content-center align-items-center text-end">
-        <div class="col-md-6 col-12 p-5">
+    <section class="container-fluid row mx-0 mt-5 justify-content-center align-items-center text-end">
+        <div class=" texto-amose col-md-6 col-12 p-5">
             <h4> SOBRE AMOSE </h4>
-            <div> "¡Bienvenidos a Amose, el lugar donde la gastronomía moderna se encuentra con la pasión culinaria! En
+            <p> ¡Bienvenidos a Amose, el lugar donde la gastronomía moderna se encuentra con la pasión culinaria! En
                 Amose, nos enorgullece ofrecer una experiencia culinaria única, combinando sabores audaces,
                 presentaciones innovadoras y un ambiente contemporáneo.
                 <br><br>Nuestro restaurante se ha convertido en el destino preferido para los amantes de la comida que
@@ -89,19 +90,19 @@
                 culinaria cuidadosamente elaborada por nuestros talentosos chefs, quienes fusionan ingredientes
                 frescos
                 y de alta calidad con técnicas culinarias modernas.
-            </div>
+            </p>
         </div>
         <div class="col-md-6 col-12 m-0 p-0">
             <img src="./img/fondo-5.jpg" alt="foto general del aspecto del restaurante" class="w-100">
         </div>
     </section>
     <!-- SECTION II -->
-    <section class="row mx-0 mt-5 justify-content-center align-items-center">
+    <section class=" container-fluid row mx-0 mt-5 justify-content-center align-items-center">
         <div class="col-md-6 col-12 m-0 p-0">
             <img src="./img/fondo-1.jpg" alt="foto general del aspecto del restaurante" class="w-100">
         </div>
         <div class="col-md-6 col-12 p-5">
-            <div> En Amose, creemos que la comida es una forma de arte y una expresión de creatividad. Nuestro equipo de
+            <p> En Amose, creemos que la comida es una forma de arte y una expresión de creatividad. Nuestro equipo de
                 chefs apasionados se esfuerza por sorprender a nuestros comensales con combinaciones inesperadas de
                 sabores y presentaciones visualmente impresionantes. Cada bocado es una explosión de texturas y sabores,
                 diseñado para deleitar los sentidos y despertar nuevas sensaciones.
@@ -111,7 +112,7 @@
                 Nuestra decoración moderna y elegante crea el escenario perfecto para disfrutar de una experiencia
                 culinaria memorable. Ya sea que estés celebrando una ocasión especial, disfrutando de una cena romántica
                 o simplemente buscando una experiencia gastronómica única, Amose es el lugar ideal.
-            </div>
+            </p>
         </div>
     </section>
     <!-- SECTION III -->
@@ -150,10 +151,10 @@
     <section class="container text-center p-5">
         <h5 class="exp-amose d-inline-block">VIVE LA EXPERENCIA AMOSE</h5>
         <h2 class="exp-amose1 mt-3">RESERVAS</h2>
-        <a class="btn btn-outline-secondary mt-3" href="./pages/reservas.html">Elige una mesa</a>
+        <a class="btn btn-outline-mine mt-3" href="./pages/reservas.html">Elige una mesa</a>
     </section>
     <!-- FOOTER -->
-    <section class="footer row mx-0 justify-content-center align-items-center">
+    <section class="container-fluid footer row mx-0 justify-content-center align-items-center">
         <div
             class="col-md-4 col-12 d-flex flex-column justify-content-center align-items-center align-items-md-start p-5">
             <h7 class="text-center text-md-start">Carrer de la Vall D'Aiora, 6, 46015. Valéncia</h7>
