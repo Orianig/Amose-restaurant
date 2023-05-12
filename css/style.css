@@ -136,20 +136,10 @@ html {
     margin: 0 auto;
 }
 
-[data-bs-theme=dark] .carousel .carousel-control-next-icon-mine,
-[data-bs-theme=dark] .carousel .carousel-control-prev-icon-mine,
-[data-bs-theme=dark].carousel .carousel-control-next-icon-mine,
-[data-bs-theme=dark].carousel .carousel-control-prev-icon-mine {
-    filter: none;
-}
-
 .accordion-button-mine.collapsed {
     background-color: var(--c-primary);
 }
 
-.card-body-mine {
-    background-color: var(--c-primary);
-}
 
 .card img {
     transition: transform 0.3s ease;
